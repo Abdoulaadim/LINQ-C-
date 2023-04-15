@@ -12,12 +12,12 @@ namespace Linq_Partie_2
         {
             List<string> Names = new List<string>()
            {
-               "Red","BOOK","Car","Computer","Mobile","Program","Driver","Window","Key","Home"
+               "Red","BOOK","Car","Computer","Mobile","Program","Driver","Window","Key","Home","Remote"
            };
 
             //Query Syntax
 
-            var result  =  from item in Names select item;
+            var result  =  from item in Names where item.StartsWith("C") && item.Length==3 select item;
 
             foreach (var items in result)
             {
