@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Partie_3", "..\Linq_Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Partie_4", "..\Linq_Partie_4\Linq_Partie_4.csproj", "{DF6EC520-8B9E-432E-9957-E57E079DC843}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Partie_5", "..\Linq_Partie_5\Linq_Partie_5.csproj", "{69DEBAD1-B7BB-4124-B650-51728F03D07E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DF6EC520-8B9E-432E-9957-E57E079DC843}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF6EC520-8B9E-432E-9957-E57E079DC843}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF6EC520-8B9E-432E-9957-E57E079DC843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DEBAD1-B7BB-4124-B650-51728F03D07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DEBAD1-B7BB-4124-B650-51728F03D07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DEBAD1-B7BB-4124-B650-51728F03D07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DEBAD1-B7BB-4124-B650-51728F03D07E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

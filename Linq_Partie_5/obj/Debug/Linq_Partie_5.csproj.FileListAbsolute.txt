@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\linq c#\Linq_Partie_5\bin\Debug\Linq_Partie_5.exe.config
+C:\Users\admin\Desktop\linq c#\Linq_Partie_5\bin\Debug\Linq_Partie_5.exe
+C:\Users\admin\Desktop\linq c#\Linq_Partie_5\bin\Debug\Linq_Partie_5.pdb
+C:\Users\admin\Desktop\linq c#\Linq_Partie_5\obj\Debug\Linq_Partie_5.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\linq c#\Linq_Partie_5\obj\Debug\Linq_Partie_5.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\linq c#\Linq_Partie_5\obj\Debug\Linq_Partie_5.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\linq c#\Linq_Partie_5\obj\Debug\Linq_Partie_5.exe
+C:\Users\admin\Desktop\linq c#\Linq_Partie_5\obj\Debug\Linq_Partie_5.pdb
