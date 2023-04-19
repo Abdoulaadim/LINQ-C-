@@ -30,7 +30,7 @@ namespace Linq_Partie_5
                        orderby item.Id,item.Title descending
                        select item;
 
-            foreach (Book item in list)
+            foreach (var item in list)
             {
                 Console.WriteLine("Id= {0} , Title = {1}, Author= {2}", item.Id, item.Title, item.Author);
             }
@@ -43,7 +43,7 @@ namespace Linq_Partie_5
             var items = books.OrderBy(item => item.Id).ThenBy(item => item.Title);
 
 
-            foreach (Book item in items)
+            foreach (var item in items)
             {
                 Console.WriteLine("Id= {0} , Title = {1}, Author= {2}", item.Id, item.Title, item.Author);
             }

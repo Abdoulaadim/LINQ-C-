@@ -29,7 +29,7 @@ namespace Linq_Partie_4
                             orderby item.Id descending
                             select item;
 
-            foreach (Book item in list)
+            foreach (var item in list)
             {
                 Console.WriteLine("Id= {0} , Title = {1}, Author= {2}", item.Id, item.Title, item.Author);
             }
@@ -42,7 +42,7 @@ namespace Linq_Partie_4
             var items  = books.OrderByDescending(item => item.Id);
 
 
-            foreach (Book item in items)
+            foreach (var item in items)
             {
                 Console.WriteLine("Id= {0} , Title = {1}, Author= {2}", item.Id, item.Title, item.Author);
             }
