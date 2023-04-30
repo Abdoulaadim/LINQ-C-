@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Partie_5", "..\Linq_Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Partie_6", "..\Linq_Partie_6\Linq_Partie_6.csproj", "{576D23C7-A0DF-4C8E-A300-9F85073466A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Partie_.7", "..\Linq_Partie_.7\Linq_Partie_.7.csproj", "{4571E3EA-74B1-44D1-A510-1C258FFDD7CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Partie_7", "..\Linq_Partie_.7\Linq_Partie_7.csproj", "{4571E3EA-74B1-44D1-A510-1C258FFDD7CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Partie_8", "..\Linq_Partie_8\Linq_Partie_8.csproj", "{300418BE-9A50-47DB-8968-8CE112E90E7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{4571E3EA-74B1-44D1-A510-1C258FFDD7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4571E3EA-74B1-44D1-A510-1C258FFDD7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4571E3EA-74B1-44D1-A510-1C258FFDD7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300418BE-9A50-47DB-8968-8CE112E90E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300418BE-9A50-47DB-8968-8CE112E90E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300418BE-9A50-47DB-8968-8CE112E90E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300418BE-9A50-47DB-8968-8CE112E90E7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
