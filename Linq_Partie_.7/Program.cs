@@ -50,8 +50,25 @@ namespace Linq_Partie_._7
                            on teacher.Name equals student.Name
                            select teacher;
 
-            Console.WriteLine("---------------");
             foreach (var element in JoinList)
+            {
+                Console.WriteLine("Name = " + element.Name);
+            }
+           
+            Console.WriteLine();
+            Console.WriteLine("////////////////////////////////////////////////////////////////////////////////////");
+            Console.WriteLine();
+
+            //Methode Syntax
+
+
+            var JoinList1 = teachers.Join(students,
+                            tName => tName.Name,
+                            sName => sName.Name,
+                            (tName, sName) => tName);
+
+            
+            foreach (var element in JoinList1)
             {
                 Console.WriteLine("Name = " + element.Name);
             }
