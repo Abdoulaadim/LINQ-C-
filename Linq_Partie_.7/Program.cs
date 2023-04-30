@@ -42,6 +42,13 @@ namespace Linq_Partie_._7
                 new Student { Name ="Ikram"},
                 new Student { Name ="Yassmine"},
             };
+
+            //query Syntax
+
+            var JoinList = from teacher in teachers
+                           join student in students
+                           on teacher.Name equals student.Name
+                           select teacher; 
         }
     }
 }
