@@ -10,7 +10,7 @@ namespace Linq_Partie_9
     {
         static void Main(string[] args)
         {
-            string[] names = { "Abdoulaadim", "Youssef", "Rachid", "Kabira", "Hind", "Laila" };
+            string[] names = { "Abdoulaadim", "Youssef", "Rachid", "Kabira", "Hind", "Yassine", "Laila" };
 
             //var firstElement = names.First();
             var firstElement = names.First(a => a.StartsWith("H"));
@@ -22,7 +22,8 @@ namespace Linq_Partie_9
             Console.WriteLine();
 
 
-            var lastElement = names.Last(); // return null
+            //var lastElement = names.Last();
+            var lastElement = names.Last(a => a.StartsWith("Y"));
 
 
             Console.WriteLine("////////////////LastElement///////////////////");
