@@ -22,9 +22,9 @@ namespace Linq_Partie_9
             Console.WriteLine();
 
 
-            //var lastElement = names.Last();
+            var lastElement = names.Last();
             //var lastElement = names.Last(a => a.StartsWith("Y"));
-            var lastElement = names.LastOrDefault(a => a.StartsWith("T"));
+            //var lastElement = names.LastOrDefault(a => a.StartsWith("T"));
 
 
             Console.WriteLine("////////////////LastElement///////////////////");
