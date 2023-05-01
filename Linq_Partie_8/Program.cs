@@ -22,6 +22,7 @@ namespace Linq_Partie_8
                 Console.WriteLine(group);
             }
 
+            Console.WriteLine();
             Console.WriteLine("///////////Concat///////////////////");
             Console.WriteLine();
 
@@ -33,6 +34,7 @@ namespace Linq_Partie_8
                 Console.WriteLine(group);
             }
 
+            Console.WriteLine();
             Console.WriteLine("///////////Union///////////////////");
             Console.WriteLine();
 
@@ -44,13 +46,26 @@ namespace Linq_Partie_8
                 Console.WriteLine(group);
             }
 
+            Console.WriteLine();
             Console.WriteLine("///////////Intersect///////////////////");
             Console.WriteLine();
 
-            // Union 
+            // Intersect 
             var concatGroup3 = group1.Intersect(group2);
 
             foreach (var group in concatGroup3)
+            {
+                Console.WriteLine(group);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("///////////Except///////////////////");
+            Console.WriteLine();
+
+            // Except 
+            var concatGroup4 = group1.Except(group2);
+
+            foreach (var group in concatGroup4)
             {
                 Console.WriteLine(group);
             }
