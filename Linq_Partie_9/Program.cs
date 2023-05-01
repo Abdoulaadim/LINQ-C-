@@ -12,6 +12,11 @@ namespace Linq_Partie_9
         {
             string[] names = { "Abdoulaadim", "Youssef", "Rachid", "Kabira", "Hind", "Laila" };
 
+            var firstElement = names.First();
+
+            Console.WriteLine(firstElement);
+
+            Console.ReadKey();
 
         }
     }
