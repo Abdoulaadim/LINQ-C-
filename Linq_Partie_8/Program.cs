@@ -22,7 +22,7 @@ namespace Linq_Partie_8
                 Console.WriteLine(group);
             }
 
-            Console.WriteLine("//////////////////////////////");
+            Console.WriteLine("///////////Concat///////////////////");
             Console.WriteLine();
 
             // Distinct 
@@ -33,7 +33,7 @@ namespace Linq_Partie_8
                 Console.WriteLine(group);
             }
 
-            Console.WriteLine("//////////////////////////////");
+            Console.WriteLine("///////////Union///////////////////");
             Console.WriteLine();
 
             // Union 
@@ -44,7 +44,17 @@ namespace Linq_Partie_8
                 Console.WriteLine(group);
             }
 
-            Console.ReadKey();
+            Console.WriteLine("///////////Intersect///////////////////");
+            Console.WriteLine();
+
+            // Union 
+            var concatGroup3 = group1.Intersect(group2);
+
+            foreach (var group in concatGroup3)
+            {
+                Console.WriteLine(group);
+            }
+
 
             Console.ReadKey();
 
