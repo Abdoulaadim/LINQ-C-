@@ -48,9 +48,8 @@ namespace Linq_Partie_9
 
 
 
-            //var singleElement = names.Single();
-            //var singleElement = names.Single(a => a.StartsWith("Y"));
-            var ElementAt = names.ElementAt(2);
+            //var ElementAt = names.ElementAt(2);
+            var ElementAt = names.ElementAtOrDefault(20);
 
 
             Console.WriteLine("////////////////ElementAt///////////////////");
