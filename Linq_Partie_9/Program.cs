@@ -33,6 +33,17 @@ namespace Linq_Partie_9
             Console.WriteLine();
 
 
+            var singleElement = names.Single();
+            //var singleElement = names.Single(a => a.StartsWith("Y"));
+            //var singleElement = names.Single(a => a.StartsWith("T"));
+
+
+            Console.WriteLine("////////////////singleElement///////////////////");
+            Console.WriteLine();
+            Console.WriteLine(singleElement);
+            Console.WriteLine();
+
+
             Console.ReadKey();
 
         }
