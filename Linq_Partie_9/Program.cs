@@ -46,6 +46,19 @@ namespace Linq_Partie_9
             Console.WriteLine();
 
 
+
+
+            //var singleElement = names.Single();
+            //var singleElement = names.Single(a => a.StartsWith("Y"));
+            var ElementAt = names.ElementAt(2);
+
+
+            Console.WriteLine("////////////////ElementAt///////////////////");
+            Console.WriteLine();
+            Console.WriteLine(ElementAt);
+            Console.WriteLine();
+
+
             Console.ReadKey();
 
         }
