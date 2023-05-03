@@ -10,11 +10,22 @@ namespace Linq_Partie_10
     {
         static void Main(string[] args)
         {
-            int[] numbers = { 7, 3, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+            int[] numbers = { 7, 3, 1, 2, 8, 5};
 
+            Console.WriteLine();
+            Console.WriteLine("////////////////////count//////////////////////");
             var count = numbers.Count();
-
             Console.WriteLine(count);
+            Console.WriteLine();
+
+
+
+            Console.WriteLine();
+            Console.WriteLine("////////////////////Sum//////////////////////");
+            var sum = numbers.Sum();
+
+            Console.WriteLine(sum);
+            Console.WriteLine();
 
             Console.ReadKey();
 
