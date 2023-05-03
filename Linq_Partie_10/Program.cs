@@ -23,8 +23,14 @@ namespace Linq_Partie_10
             Console.WriteLine();
             Console.WriteLine("////////////////////Sum//////////////////////");
             var sum = numbers.Sum();
-
             Console.WriteLine(sum);
+            Console.WriteLine();
+
+
+            Console.WriteLine();
+            Console.WriteLine("////////////////////AVG//////////////////////");
+            var AVG = numbers.Average();
+            Console.WriteLine(AVG);
             Console.WriteLine();
 
             Console.ReadKey();
