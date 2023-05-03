@@ -27,6 +27,14 @@ namespace Linq_Partie_10
             Console.WriteLine();
 
 
+
+            Console.WriteLine();
+            Console.WriteLine("////////////////////MAX//////////////////////");
+            var MAx = numbers.Max();
+            Console.WriteLine(MAx);
+            Console.WriteLine();
+
+
             Console.WriteLine();
             Console.WriteLine("////////////////////AVG//////////////////////");
             var AVG = numbers.Average();
